@@ -1,10 +1,13 @@
-import Link from "next/link";
-
 const subjects = [
-  { code: "MDM", name: "MDM", file: "/files/mdm.pdf" },
-  { code: "SE", name: "SE", file: "/files/se.pdf" },
-  { code: "CN", name: "CN", file: "/files/cn.pdf" },
-  { code: "AI&CS", name: "AI & CS", file: "/files/ai-cs.pdf" },
+  { code: "MDM", name: "MDM", file: "/files/mdm.pdf", kind: "PDF" },
+  { code: "SE", name: "SE", file: "/files/se.pdf", kind: "PDF" },
+  { code: "CN", name: "CN", file: "/files/cn.pdf", kind: "PDF" },
+  {
+    code: "AI&CS",
+    name: "AI & CS",
+    file: "/files/AI_Soft_Computing_Website_Codes_No_Comments.zip",
+    kind: "ZIP",
+  },
 ];
 
 function DownloadIcon() {
@@ -69,26 +72,27 @@ export default function SubjectNotesPage() {
                 <div className="min-w-0">
                   <h2 className="text-sm font-medium">{subject.name}</h2>
                   <p className="mt-1 text-xs text-zinc-500">
-                    Study material · PDF
+                    Study material · {subject.kind}
                   </p>
                 </div>
               </div>
 
-              <Link
+              <a
                 href={subject.file}
-                download
-                aria-label={`Download ${subject.name} notes`}
+                download={subject.file.split("/").pop()}
+                aria-label={`Download ${subject.name} study material`}
                 className="inline-flex min-h-9 shrink-0 items-center justify-center gap-2 rounded-md border border-zinc-900 bg-zinc-900 px-3 text-xs font-medium text-white transition-colors hover:bg-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:ring-offset-2"
               >
                 <DownloadIcon />
                 Download
-              </Link>
+              </a>
             </div>
           ))}
         </div>
 
         <p className="mt-4 text-xs leading-5 text-zinc-500">
-          Add your PDFs to the <code className="rounded bg-zinc-100 px-1 py-0.5">public/files</code>{" "}
+          Study materials are served from the{" "}
+          <code className="rounded bg-zinc-100 px-1 py-0.5">public/files</code>{" "}
           folder using the filenames configured in the page.
         </p>
       </section>
