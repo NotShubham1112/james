@@ -1,21 +1,22 @@
-1. Experiment 1: https://example.com/exp1
-2. Experiment 2: https://example.com/exp2
-3. Experiment 3: https://example.com/exp3
-4. Experiment 4: https://example.com/exp4
-5. Experiment 5: https://example.com/exp5
-6. Experiment 6: https://example.com/exp6
-7. Experiment 7: https://example.com/exp7
-8. Experiment 8: https://example.com/exp8
-9. Experiment 9: https://example.com/exp9
-10. Experiment 10: https://example.com/exp10
+1. Stepper Motor to Move in a Direction: https://wokwi.com/projects/479498289014908929
 
-This is a placeholder file for experiments.
-The user will provide the actual content later.
-Each link above is a dummy link.
-Ensure you replace these with real data.
-The file should be 10-15 lines long.
-This is line 11.
-This is line 12.
-This is line 13.
-This is line 14.
-This is line 15.
+2. DHT11 temp and humidity: https://wokwi.com/projects/479484466089604097
+
+3. Multitask_FreeRTOS_capabilities: https://wokwi.com/projects/479494841043372033
+
+4. Use of binary & counting semaphore FreeRtos: https://wokwi.com/projects/479495044519586817
+
+5. Queue management feature FreeRTOS: https://wokwi.com/projects/479495123250881537
+
+6. Interfacing Button controlled LED: https://wokwi.com/projects/479485012649452545
+
+7. Relay Module Interfacing: https://wokwi.com/projects/479485424687449089
+
+8. Interfacing of 16x2 LCD: https://wokwi.com/projects/479484842058693633
+
+9. Power Management in STM32: https://wokwi.com/projects/479484331014111233
+
+10. DC Motor speed & direction control: https://www.tinkercad.com/things/iDJUpfG6Yxv-stunning-krunk/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fthings%2FiDJUpfG6Yxv-stunning-krunk&sharecode=t8_bB3Vr346T-n-DYPvIm_18XgqHmckaAC905nSN-Sk
+
+Thank you, Sandy!
+-sandy
