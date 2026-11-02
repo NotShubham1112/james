@@ -1,0 +1,14 @@
+
+ipconfig
+
+ping google.com
+
+tracert google.com
+
+nslookup www.microsoft.com
+
+netstat -an
+
+arp -a
+
+route print
