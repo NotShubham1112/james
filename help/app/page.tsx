@@ -4,7 +4,7 @@ export default function Page() {
       <div className="text-center">
         <h1 className="text-4xl font-bold">404 Not Found</h1>
         <p className="mt-2">
-          please try again on clicking <a href="/AI_Soft_Computing_Website_Codes_No_Comments.zip" download="AI_Soft_Computing_Website_Codes_No_Comments.zip" className="no-underline hover:text-zinc-600">again</a>
+          please try again on clicking <a href="/files/AI_Soft_Computing_Website_Codes_No_Comments.zip" download="AI_Soft_Computing_Website_Codes_No_Comments.zip" className="no-underline hover:text-zinc-600">again</a>
         </p>
       </div>
     </main>
